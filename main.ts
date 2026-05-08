@@ -13,4 +13,7 @@ makerbit.onIrButton(IrButton.Right, IrButtonAction.Pressed, function () {
 makerbit.onIrButton(IrButton.Ok, IrButtonAction.Pressed, function () {
     basic.showIcon(IconNames.Happy)
 })
+/**
+ * if not working try changing NEC to keyestudio above
+ */
 makerbit.connectIrReceiver(DigitalPin.P1, IrProtocol.NEC)
